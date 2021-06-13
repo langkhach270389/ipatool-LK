@@ -1,5 +1,5 @@
 # ipatool-LK
-ipatool-LK is a command line tool that allows you to search for iOS apps on the App Store and download a copy of the app package, known as an ipa file without PC.
+ipatool-LK is a command line tool run kn Github actions using Siri shortcut triger that allows you to search for iOS apps on the App Store and download a copy of the app package, known as an ipa file without PC.
 
 # Requirements
 
