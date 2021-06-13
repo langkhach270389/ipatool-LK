@@ -1,0 +1,28 @@
+name: ipatool-langkhach
+
+on:
+  repository_dispatch:
+    types: [ipatool-langkhach]
+
+jobs:
+  Instance:
+    runs-on: macos-latest
+    env: 
+      BUNDLEID: ${{ github.event.client_payload.bundleid }}
+      LINK_EMAIL: ${{ github.event.client_payload.linkmail }}
+      IPATOOL_EMAIL: ${{ github.event.client_payload.apple.mail }}
+      IPATOOL_PASSWORD: ${{ github.event.client_payload.apple.pass }}
+      TELEGRAM_TOKEN: ${{ github.event.client_payload.telegram.token }}
+      TELEGRAM_ID: ${{ github.event.client_payload.telegram.token }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+
+    - name: Setup ipatool
+      run: source setup.sh
+      
+    - name: Download
+      run: source download.sh
+      
+    - name: Upload
+      run: source upload.sh
