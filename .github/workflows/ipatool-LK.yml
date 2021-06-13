@@ -12,8 +12,7 @@ jobs:
       LINK_EMAIL: ${{ github.event.client_payload.linkmail }}
       IPATOOL_EMAIL: ${{ github.event.client_payload.apple.mail }}
       IPATOOL_PASSWORD: ${{ github.event.client_payload.apple.pass }}
-      TELEGRAM_TOKEN: ${{ github.event.client_payload.telegram.token }}
-      TELEGRAM_ID: ${{ github.event.client_payload.telegram.token }}
+      
     steps:
     - name: Checkout
       uses: actions/checkout@main
