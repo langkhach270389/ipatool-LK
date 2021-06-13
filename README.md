@@ -16,6 +16,8 @@ Search for apps on the App Store click share app link to shortcuts or Just click
 
 # LICENSE
 
+That the tool is distributed under the MIT license
+
 [![Release](https://img.shields.io/github/release/majd/ipatool.svg)](https://GitHub.com/majd/ipatool/releases/)
 ![Swift](https://img.shields.io/badge/Swift-5.4-green.svg)
 ![macOS](https://img.shields.io/badge/macOS-10.15%2B-green.svg)
