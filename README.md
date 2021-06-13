@@ -5,7 +5,7 @@ ipatool-LK is a command line tool that allows you to search for iOS apps on the 
 
 *Clone repo
 
-*Download shortcuts and set env : [Get shortcut](https://www.icloud.com/shortcuts/74d55e001f4e49bdb92945837959d937)]
+*Download shortcuts and set env : [Get shortcut](https://www.icloud.com/shortcuts/295ef6b1805748f59416d82b622064b1)]
 
 # Usage
 
