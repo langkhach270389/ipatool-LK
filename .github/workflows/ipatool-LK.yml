@@ -12,6 +12,7 @@ jobs:
       LINK_EMAIL: ${{ github.event.client_payload.linkmail }}
       IPATOOL_EMAIL: ${{ github.event.client_payload.apple.mail }}
       IPATOOL_PASSWORD: ${{ github.event.client_payload.apple.pass }}
+      IPATOOL_2FA_CODE: ${{ github.event.client_payload.apple.auth }}
       
     steps:
     - name: Checkout
