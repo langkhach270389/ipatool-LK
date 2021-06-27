@@ -8,7 +8,7 @@ https://youtu.be/beNwLzBOa8I
 
 *Clone repo
 
-*Download shortcuts and set env : [Get shortcut](https://www.icloud.com/shortcuts/295ef6b1805748f59416d82b622064b1)]
+*Download shortcuts and set env : [Get shortcut](https://www.icloud.com/shortcuts/9088cd93052a489dbbe77e8ffd3e19f1)]
 
 # Usage
 
