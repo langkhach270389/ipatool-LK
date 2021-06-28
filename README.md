@@ -6,7 +6,7 @@ https://youtu.be/beNwLzBOa8I
 
 # Requirements
 
-*Clone repo
+*fork repo
 
 *Download shortcuts and set env : [Get shortcut](https://www.icloud.com/shortcuts/b8c9c6c1343e4199b30c4ece3b2dbcee)]
 
